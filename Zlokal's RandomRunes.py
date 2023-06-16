@@ -38,7 +38,7 @@ choice_of_boost = ["adaptive force", "attack speed", "ability haste"]
 choice_of_boost2 = ["adaptive force", "attack speed", "ability haste"]
 choice_of_boost3 = ["adaptive force", "attack speed", "ability haste"]
 
-main_rune = input("Chose main rune(Precision, Domination, Sorcery, Resolve or Inspiration): ").lower()
+main_rune = input("Choose main rune(Precision, Domination, Sorcery, Resolve or Inspiration): ").lower()
 if main_rune == ("precision"):
         print("Precision")
         print(random.choice(keystones_precision))
